@@ -13,11 +13,22 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-robertbachmann-maven</id>
+			<name>bintray</name>
+			<url>http://dl.bintray.com/robertbachmann/maven</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
-			<groupId>com.licel</groupId>
+			<groupId>io.github.robertbachmann</groupId>
 			<artifactId>jcardsim</artifactId>
-			<version>2.2.2</version>
+			<version>3.0.4.20150625-NIGHTLY</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
